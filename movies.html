@@ -8,7 +8,32 @@
     <title>Movies with JS</title>
   </head>
   <body>
-    <h1>At the Movies with JS</h1>
-    
+    <div class="container">
+      <div class="page-header">
+        <h1>At the Movies with JS</h1>
+      </div>
+    <h2>Buy a ticket!</h2>
+    <form id="ticketmaster">
+      <select id="vintage">
+        <option value="0">New Release</option>
+        <option value="1">Oldie but Goody</option>
+      </select>
+      <select id="age_range">
+        <option value="0">Adult</option>
+        <option value="1">Child (12 and under)</option>
+        <option value="1">Senior (65 and older)</option>
+      </select>
+      <select id="showing">
+        <option value="1">2:00</option>
+        <option value="1">4:00</option>
+        <option value="0">5:00</option>
+        <option value="0">7:00</option>
+        <option value="0">9:00</option>
+      </select>
+      <button class="btn" type="submit">Purchase ticket!</button>
+    </form>
+
+    <h3>Thank you for making your purchase.  Your ticket cost $<span class="ticket_price"></span></h3>
+  </div>
   </body>
 </html>
