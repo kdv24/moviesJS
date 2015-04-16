@@ -14,15 +14,18 @@
       </div>
     <h2>Buy a ticket!</h2>
     <form id="ticketmaster">
+      <label for="vintage">Movie type</label>
       <select id="vintage">
         <option value="0">New Release</option>
         <option value="1">Oldie but Goody</option>
       </select>
+      <label for="age_range">Ticket type</label>
       <select id="age_range">
         <option value="0">Adult</option>
         <option value="1">Child (12 and under)</option>
         <option value="1">Senior (65 and older)</option>
       </select>
+      <label for="showing">Showtime:</label>
       <select id="showing">
         <option value="1">2:00</option>
         <option value="1">4:00</option>
@@ -33,7 +36,7 @@
       <button class="btn" type="submit">Purchase ticket!</button>
     </form>
 
-    <h3>Thank you for making your purchase.  Your ticket cost $<span class="ticket_price"></span></h3>
+    <h3>Thank you for making your purchase.  Your ticket cost $<span class="ticket_price"></span>.00</h3>
   </div>
   </body>
 </html>
