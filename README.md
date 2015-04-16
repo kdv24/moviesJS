@@ -5,10 +5,12 @@ Description:
 This app will display the cost to go to a given movie.  Cost will vary based on new release or not, time of the movie, and age.
 
 # SetUp and Use
-In order to use this program you will need a browser...NOT IE!
+In order to use this program you will need a browser.
 
 SetUp
+
 1. Git clone moviesJS or download the zip file.
+
 2. Open movies.html in your browser
 
 # Copyright (c) 2015 (Kelly de Vries)
